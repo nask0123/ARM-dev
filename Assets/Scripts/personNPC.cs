@@ -40,7 +40,8 @@ public class personNPC : MonoBehaviour
 	protected void OnTriggerEnter2D(Collider2D other)
 	{
 		if(other.tag == "trafficLight"){
-			
+			trafficLight tl = other.GetComponent<trafficLight>();
+			chooseWhereToGo(tl);
 		}
 		if(other.tag == "crossWalk"){
 			crossRoadConfig config = other.GetComponent<crossRoadConfig>();
@@ -81,6 +82,16 @@ public class personNPC : MonoBehaviour
 				moveX = 0;
 				moveY = -1;
 			}
+		}
+	}
+	
+	public void chooseWhereToGo(trafficLight tl){
+		int i = Random.Range(0,4);
+		if(i == 0){
+			
+		}
+		else{
+			//if(tl)
 		}
 	}
 	
