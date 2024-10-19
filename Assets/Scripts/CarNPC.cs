@@ -64,7 +64,6 @@ public class CarNPC : MonoBehaviour
 		foreach (RaycastHit2D hit in hits)
 		{
 			if(hit != null && hit.collider.gameObject != gameObject){
-				Debug.Log(hit);
 				StartCoroutine(waitTillForwardGoes(hit, moveX, moveY));
 			}
 		}
