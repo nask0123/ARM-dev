@@ -6111,6 +6111,12 @@ MonoBehaviour:
   speed: 10
   moveX: 1
   moveY: 0
+  facingDirection: 0
+  distanceToKeep: 0
+  carLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  direction: 0
 --- !u!50 &322981971
 Rigidbody2D:
   serializedVersion: 4
@@ -10459,6 +10465,12 @@ MonoBehaviour:
   speed: 10
   moveX: 1
   moveY: 0
+  facingDirection: 0
+  distanceToKeep: 0
+  carLayer:
+    serializedVersion: 2
+    m_Bits: 0
+  direction: 0
 --- !u!50 &576608384
 Rigidbody2D:
   serializedVersion: 4
@@ -12287,13 +12299,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 667997728}
   serializedVersion: 2
-  m_LocalRotation: {x: 0.019841146, y: 0.016755663, z: 0.7109391, w: 0.70277405}
-  m_LocalPosition: {x: 214.55717, y: 39.62391, z: -3.4588974}
-  m_LocalScale: {x: 31.183842, y: 4.42949, z: 1}
+  m_LocalRotation: {x: 0.002032609, y: 0.02588897, z: -0.000052639905, w: 0.99966276}
+  m_LocalPosition: {x: 108.1, y: 60, z: -3.4588974}
+  m_LocalScale: {x: 10.805201, y: -2.6652846, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1219811751}
-  m_LocalEulerAnglesHint: {x: 0.233, y: 2.967, z: 90.668}
+  m_LocalEulerAnglesHint: {x: 0.233, y: 2.967, z: 0}
 --- !u!212 &667997730
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -12335,7 +12347,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7c197e28283836f42928e71a872de052, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
